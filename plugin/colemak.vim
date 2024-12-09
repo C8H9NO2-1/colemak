@@ -17,6 +17,6 @@ function! Colemak()
     " shift+i does nothing
     nnoremap I <nop>
 
-    nnromeap <C-i> <C-l>
+    nmap <C-i> <C-l>
 endfunction
 call Colemak()
